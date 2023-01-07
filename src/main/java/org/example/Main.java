@@ -15,5 +15,7 @@ public class Main {
         // laptop2 커밋4
         // laptop2 커밋5
         // laptop2 커밋6
+        // laptop2 커밋7
+        // laptop2 커밋8
     }
 }
