@@ -5,7 +5,8 @@ public class Main {
         // main laptop
         // laptop1 커밋
         // laptop1 커밋2
-        System.out.println("Hello world!");
+        // laptop1 커밋3
+        System.out.println("Hello __laptop1__ world!");
         
         // laptop2 커밋
         // laptop2 커밋1
