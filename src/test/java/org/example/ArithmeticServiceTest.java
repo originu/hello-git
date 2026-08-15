@@ -29,6 +29,13 @@ class ArithmeticServiceTest {
     }
 
     @Test
+    void returnsTheLargerNumber() {
+        assertEquals(5.0, service.maximum(5.0, 3.0));
+        assertEquals(7.0, service.maximum(2.0, 7.0));
+        assertEquals(-2.0, service.maximum(-5.0, -2.0));
+    }
+
+    @Test
     void dividesTwoNumbers() {
         assertEquals(2.5, service.divide(5.0, 2.0));
     }
