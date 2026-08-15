@@ -9,6 +9,7 @@ public class Main {
         System.out.printf("%.1f + %.1f = %.1f%n", left, right, arithmeticService.add(left, right));
         System.out.printf("%.1f - %.1f = %.1f%n", left, right, arithmeticService.subtract(left, right));
         System.out.printf("%.1f * %.1f = %.1f%n", left, right, arithmeticService.multiply(left, right));
+        System.out.printf("average(%.1f, %.1f) = %.1f%n", left, right, arithmeticService.average(left, right));
         System.out.printf("%.1f / %.1f = %.1f%n", left, right, arithmeticService.divide(left, right));
     }
 }

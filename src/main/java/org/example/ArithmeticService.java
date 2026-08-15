@@ -13,6 +13,10 @@ public class ArithmeticService {
         return left * right;
     }
 
+    public double average(double left, double right) {
+        return (left + right) / 2.0;
+    }
+
     public double divide(double left, double right) {
         if (right == 0.0) {
             throw new IllegalArgumentException("0으로 나눌 수 없습니다.");
