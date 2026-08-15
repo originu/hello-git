@@ -24,6 +24,11 @@ class ArithmeticServiceTest {
     }
 
     @Test
+    void averagesTwoNumbers() {
+        assertEquals(4.0, service.average(5.0, 3.0));
+    }
+
+    @Test
     void dividesTwoNumbers() {
         assertEquals(2.5, service.divide(5.0, 2.0));
     }

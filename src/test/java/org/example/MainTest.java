@@ -25,6 +25,7 @@ class MainTest {
         assertTrue(result.contains("10.0 + 5.0 = 15.0"));
         assertTrue(result.contains("10.0 - 5.0 = 5.0"));
         assertTrue(result.contains("10.0 * 5.0 = 50.0"));
+        assertTrue(result.contains("average(10.0, 5.0) = 7.5"));
         assertTrue(result.contains("10.0 / 5.0 = 2.0"));
     }
 }
