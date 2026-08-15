@@ -21,6 +21,10 @@ public class ArithmeticService {
         return Math.max(left, right);
     }
 
+    public double minimum(double left, double right) {
+        return Math.min(left, right);
+    }
+
     public double divide(double left, double right) {
         if (right == 0.0) {
             throw new IllegalArgumentException("0으로 나눌 수 없습니다.");
